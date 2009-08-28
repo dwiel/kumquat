@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, serif;
+}
+
+h1 {
+	font-style: italic;
+	font-weight: bold;
+}
+
+pre {
+	padding: 1.5em;
+	border: 1px dashed #ccc;
+}
+
+
+/* STATIC STYLES */
+#logo {
+	text-decoration: none;
+	color: #555;
+}
+
+#logo_the {
+    font-size: 1.5em;
+    margin-top: -.5em;
+}
+
+#logo_burning {
+    margin-top: -.5em;
+    font-size: 3em;
+}
+
+#logo_kumquat {
+    margin-top: -.75em;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+#site_name {
+    text-align: center;
+    font-style:italic;
+    color: #555;
+    height: 9em;
+    overflow: hidden;
+}
+
+
+div.borderleft {padding-left:4px;margin-left:-5px;border-left:1px solid #eee;}
+div.colborderleft {padding-left:24px;margin-left: 15px;border-left:1px solid #eee;}
+
+.container {
+    padding-top: 1.5em;
+}
+
+#sidebar {
+    text-align: left;
+    padding-top: 3em;
+}
+
+#content {
+    padding-top: 1.5em;
+    /*padding-left:9px;margin-left:-10px;border-left:1px solid #eee;*/
+}
