@@ -181,7 +181,7 @@ class ViewController(BaseController):
 		uri = 'http://' + id
 		name = schema.uri_to_name(uri)
 		if name :
-			redirect_to('/view/name/' + name)
+			redirect_to('/view/name/' + str(name))
 		
 		subquery = 'FILTER( regex(str(?sub), "^%s$") )' % uri
 		
